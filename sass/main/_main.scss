@@ -1,0 +1,8 @@
+.fv {
+  background: url(/img/fv-bgi@2x.jpg) no-repeat center / cover;
+  height: 90vh;
+}
+.fv__title {
+  //フォントサイズ, 行送り, 太さ, 字送り
+  @include f_around(#ffffff,0,0,0);
+}
