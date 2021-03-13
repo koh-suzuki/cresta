@@ -1,0 +1,24 @@
+.header {
+  background-color: #1B1310;
+  color: #ffffff;
+}
+.header__inner {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+padding: 22px 120px;
+}
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  // margin-right: -55px;
+}
+.header__item {
+  margin-left: 55px;
+}
+.header__item > a {
+  color: #ffffff;
+}
