@@ -260,4 +260,15 @@ img {
 .header__item > a {
   color: #ffffff;
 }
+
+.fv {
+  background: url(/img/fv-bgi@2x.jpg) no-repeat center/cover;
+  height: 90vh;
+}
+
+.fv__title {
+  font-weight: 0;
+  line-height: 0/#ffffff;
+  letter-spacing: 0em;
+}
 /*# sourceMappingURL=style.css.map */
