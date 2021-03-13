@@ -81,4 +81,40 @@
   padding: 25px 33px;
 }
 
-/* contact */ 
+/* form */ 
+.form__wrapper {
+  padding: 0 calc((100% / 3) / 2);
+  margin-bottom: -50px;
+}
+.form__title {
+  margin-bottom: 70px;
+}
+.form__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.form__textarea,
+.form__text {
+  border: $main__font__color 1px solid;
+}
+.form__text {
+  height: 30px;
+  margin-bottom: 25px;
+}
+.form__textarea {
+  margin-bottom: 50px;
+}
+.form__btn {
+  font-family: "Avenir";
+  //フォントサイズ, 行送り, 太さ, 字送り
+  @include f_around(20, 30, Black, 50);
+  background-color: #1B1310;
+  box-shadow: 0 0 6px #1B1310;
+  color: #ffffff;
+  border-radius: 50px;
+  margin-top: 50px;
+  width: calc(100% / 3);
+  height: 59px;
+  margin: 0 auto;
+}

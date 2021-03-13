@@ -34,9 +34,8 @@ vertical-align: top;
   font-family: "Noto Sans CJK JP";
   color: $main__font__color
 }
-.news__text,.form__name,
-.form__mail,.form__tel,
-.form__textarea, .form__btn {
+.form__label,
+.form__btn {
   font-family: "Hiragino Kaku Gothic ProN"
 }
 
@@ -59,13 +58,12 @@ vertical-align: top;
 /* news */ 
 .news__text  {
   //フォントサイズ, 行送り, 太さ, 字送り
-  @include f_around(13, 25, w6, 50);
+  @include f_around(13, 25, W6, 50);
   color: $main__font__color;
 }
 
 /* form */
-.form__name,.form__mail,
-.form__tel,.form__textarea,
+.form__label,
 .form__btn {
   //フォントサイズ, 行送り, 太さ, 字送り
   @include f_around(16, 30, W3, 50);
