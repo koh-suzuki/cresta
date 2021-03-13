@@ -80,3 +80,20 @@ vertical-align: top;
   padding: 50px 15%;
   margin: 50px 0;
 } 
+
+/* レスポンシブ */
+@include mq-down($breakpoint: md) {
+  .section__wrapper {
+    padding: 50px 5%;
+  } 
+  .section__sub-title,
+  .form__title {
+    //フォントサイズ, 行送り, 太さ, 字送り
+    @include f_around(20, 40, bold, 100);
+  }
+  .section__text {
+    //フォントサイズ, 行送り, 太さ, 字送り
+    @include f_around(14, 30, bold, 50);
+    text-align: left;
+  }
+} 
