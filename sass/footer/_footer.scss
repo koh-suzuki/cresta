@@ -1,0 +1,14 @@
+.footer {
+  background-color: #1B1310;
+  height: 79px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.copyright {
+  font-family: "Roboto";
+  //フォントサイズ, 行送り, 太さ, 字送り
+  @include f_around(14, 30, Regular, 50);
+  color: #ffffff;
+}

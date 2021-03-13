@@ -455,6 +455,7 @@ img {
 
 .form__textarea {
   margin-bottom: 50px;
+  resize: none;
 }
 
 .form__btn {
@@ -471,5 +472,23 @@ img {
   width: calc(100% / 3);
   height: 59px;
   margin: 0 auto;
+}
+
+.footer {
+  background-color: #1B1310;
+  height: 79px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: Regular;
+  line-height: 2.14286;
+  letter-spacing: 0.05em;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
