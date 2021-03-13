@@ -227,6 +227,64 @@ img {
   vertical-align: top;
 }
 
+/* main/_main.scss */
+/* フォントファミリー */
+.section__sub-title,
+.section__text,
+.form__title {
+  font-family: "Noto Sans CJK JP";
+  color: #141414;
+}
+
+.news__text, .form__name,
+.form__mail, .form__tel,
+.form__textarea, .form__btn {
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+/* about, service */
+.section__title {
+  font-size: 36px;
+  font-weight: medium;
+  line-height: 0.66667;
+  letter-spacing: 0.05em;
+  color: #141414;
+}
+
+.section__sub-title,
+.form__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.1em;
+}
+
+.section__text {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2.14286;
+  letter-spacing: 0.05em;
+}
+
+/* news */
+.news__text {
+  font-size: 13px;
+  font-weight: w6;
+  line-height: 1.92308;
+  letter-spacing: 0.05em;
+  color: #141414;
+}
+
+/* form */
+.form__name, .form__mail,
+.form__tel, .form__textarea,
+.form__btn {
+  font-size: 16px;
+  font-weight: W3;
+  line-height: 1.875;
+  letter-spacing: 0.05em;
+}
+
 .header {
   background-color: #1B1310;
   color: #ffffff;
@@ -261,6 +319,7 @@ img {
   color: #ffffff;
 }
 
+/* fv */
 .fv {
   background: url(/img/fv-bgi@2x.jpg) no-repeat center/cover;
   height: 739px;
@@ -272,11 +331,15 @@ img {
 
 .fv__title {
   font-size: 50px;
-  font-weight: 24;
-  line-height: 1;
-  letter-spacing: 0em;
+  font-weight: medium;
+  line-height: 0.48;
+  letter-spacing: 0.05em;
   color: #ffffff;
   padding: 30px 42px;
   border: 1px solid #ffffff;
 }
+
+/* about */
+/* service */
+/* news */
 /*# sourceMappingURL=style.css.map */

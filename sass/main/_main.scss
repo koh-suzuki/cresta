@@ -1,3 +1,4 @@
+/* fv */ 
 .fv {
   background: url(/img/fv-bgi@2x.jpg) no-repeat center / cover;
   height: 739px;
@@ -8,8 +9,13 @@
 }
 .fv__title {
   //フォントサイズ, 行送り, 太さ, 字送り
-  @include f_around(50, 50, 24, 0);
+  @include f_around(50,24, medium, 50);
   color: #ffffff;
   padding: 30px 42px;
   border: 1px solid #ffffff;
 }
+
+/* about */ 
+
+/* service */ 
+/* news */ 
