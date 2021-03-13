@@ -230,6 +230,11 @@ img {
 .header {
   background-color: #1B1310;
   color: #ffffff;
+  border-bottom: #ffffff solid 1px;
+}
+
+.header__logo {
+  font-size: 1.625rem;
 }
 
 .header__inner {
@@ -249,6 +254,7 @@ img {
 
 .header__item {
   margin-left: 55px;
+  font-size: 1rem;
 }
 
 .header__item > a {
