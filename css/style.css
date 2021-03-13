@@ -263,12 +263,20 @@ img {
 
 .fv {
   background: url(/img/fv-bgi@2x.jpg) no-repeat center/cover;
-  height: 90vh;
+  height: 739px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .fv__title {
-  font-weight: 0;
-  line-height: 0/#ffffff;
+  font-size: 50px;
+  font-weight: 24;
+  line-height: 1;
   letter-spacing: 0em;
+  color: #ffffff;
+  padding: 30px 42px;
+  border: 1px solid #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
