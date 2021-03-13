@@ -366,12 +366,6 @@ img {
     line-height: 1.30769;
     letter-spacing: 0em;
   }
-  .header__list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-  }
   .burger-btn {
     display: block;
     width: 39px;
@@ -413,6 +407,29 @@ img {
   }
   body.noscroll {
     overflow: hidden;
+  }
+  .header__nav {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #1B1310;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    /*キービジュアルと.btn_triggerとの重なりの前後関係を調整*/
+  }
+  .header__list {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .header__item {
+    margin-right: 0;
+    margin-bottom: 40px;
   }
 }
 

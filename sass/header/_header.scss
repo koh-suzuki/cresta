@@ -41,12 +41,6 @@ padding: 22px 120px;
     //フォントサイズ, 行送り, 太さ, 字送り
     @include f_around(26, 34, Medium, 0);
   }
-  .header__list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-  }
   .burger-btn{
     display: block;      
     width: 39px;      
@@ -89,18 +83,28 @@ padding: 22px 120px;
   body.noscroll{
     overflow: hidden;
   }
-  // .header__nav {
-  //   transform: translateX(100%);      
-  //   transition: .3s;      
-  //   width: 100vw;      
-  //   height: 100vh;      
-  //   position: fixed;      
-  //   top: 0;      
-  //   left: 0;      
-  //   z-index: 2;/*キービジュアルと.btn_triggerとの重なりの前後関係を調整*/
-  // }
-  // .header__nav.slide-in{      
-  //   transform: translateX(0);      
-  //   transition: .3s;     
-  // }
+  .header__nav {
+    // transform: translate(100%);  
+    display: none;    
+    // transition: .3s;      
+    width: 100vw;      
+    height: 100vh;      
+    position: fixed;   
+    background-color: #1B1310;   
+    top: 0;      
+    left: 0;      
+    z-index: 2;/*キービジュアルと.btn_triggerとの重なりの前後関係を調整*/
+  }
+  .header__list{        
+    display: block;        
+    position: absolute;        
+    top: 50%;        
+    left: 50%;        
+    transform: translate(-50%,-50%);        
+    text-align: center;      
+  }      
+  .header__item{        
+    margin-right: 0;        
+    margin-bottom: 40px;      
+  }
 } 
