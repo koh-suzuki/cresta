@@ -285,6 +285,17 @@ img {
   letter-spacing: 0.05em;
 }
 
+.section__title,
+.form__title,
+.footer__wrapper {
+  text-align: center;
+}
+
+/* mainの幅 */
+.section__wrapper {
+  padding: 0 15%;
+}
+
 .header {
   background-color: #1B1310;
   color: #ffffff;
@@ -340,6 +351,13 @@ img {
 }
 
 /* about */
+.section__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* service */
 /* news */
 /*# sourceMappingURL=style.css.map */

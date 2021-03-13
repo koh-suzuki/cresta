@@ -70,3 +70,14 @@ vertical-align: top;
   //フォントサイズ, 行送り, 太さ, 字送り
   @include f_around(16, 30, W3, 50);
 } 
+
+.section__title,
+.form__title,
+.footer__wrapper {
+  text-align: center;
+}
+
+/* mainの幅 */
+.section__wrapper {
+  padding: 0 15%;
+} 
