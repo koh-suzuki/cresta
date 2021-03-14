@@ -346,6 +346,14 @@ img {
   font-size: 1rem;
 }
 
+.item__hv {
+  padding-bottom: 3px;
+  border-bottom: 3px solid #fff;
+  margin-top: -3px;
+  transition: all 0.3s ease;
+  left: 50%;
+}
+
 .header__item > a {
   color: #ffffff;
 }
