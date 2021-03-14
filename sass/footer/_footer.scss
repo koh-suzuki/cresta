@@ -12,3 +12,21 @@
   @include f_around(14, 30, Regular, 50);
   color: #ffffff;
 }
+#page__top {
+  display: none;
+  text-align: center;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  > a {
+    color: #ffffff;
+    font-family: "Roboto";
+    @include f_around(26, 30, Regular, 50);
+    background-color: rgba(101, 101, 102, 0.507);
+    padding: 25px;
+    border-radius: 50px;
+  }
+  :hover {
+    background-color: rgb(128, 128, 128);;
+  }
+}

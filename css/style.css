@@ -275,8 +275,8 @@ img {
 }
 
 /* form */
-.form__label,
-.form__btn {
+.form__label, .form__textarea,
+.form__btn, .form__text {
   font-size: 16px;
   font-weight: W3;
   line-height: 1.875;
@@ -556,11 +556,13 @@ img {
 .form__text {
   height: 30px;
   margin-bottom: 25px;
+  padding: 10px;
 }
 
 .form__textarea {
   margin-bottom: 50px;
   resize: none;
+  padding: 10px;
 }
 
 .form__btn {
@@ -655,5 +657,29 @@ img {
   line-height: 2.14286;
   letter-spacing: 0.05em;
   color: #ffffff;
+}
+
+#page__top {
+  display: none;
+  text-align: center;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+}
+
+#page__top > a {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 26px;
+  font-weight: Regular;
+  line-height: 1.15385;
+  letter-spacing: 0.05em;
+  background-color: rgba(101, 101, 102, 0.507);
+  padding: 25px;
+  border-radius: 50px;
+}
+
+#page__top :hover {
+  background-color: gray;
 }
 /*# sourceMappingURL=style.css.map */

@@ -63,8 +63,8 @@ vertical-align: top;
 }
 
 /* form */
-.form__label,
-.form__btn {
+.form__label, .form__textarea,
+.form__btn, .form__text {
   //フォントサイズ, 行送り, 太さ, 字送り
   @include f_around(16, 30, W3, 50);
 } 
